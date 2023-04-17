@@ -16,7 +16,8 @@ zapis same licence). Tako, LOC iznosi 148.
 metoda evaluateExpression i Calculate
 
 Ciklomatska i kognitivna složenost za
-evaluateExpression je niska (6), 
-niskorizična, baš kao i za Calculate metodu (5),
-izuzetno niskog rizika. Dakle, u pitanju je 
-jednostavan kod.
+metode evaluateExpression i Calculate
+je niska (2-3), niskorizična, 
+izuzetno niskog rizika. 
+
+Dakle, u pitanju je jednostavan kod.
