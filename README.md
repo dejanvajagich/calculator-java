@@ -17,7 +17,7 @@ metoda evaluateExpression i Calculate
 
 Ciklomatska i kognitivna složenost za
 metode evaluateExpression i Calculate
-je niska (2-3), niskorizična, 
+je dosta niska i umerena (2+3), niskorizična, 
 izuzetno niskog rizika. 
 
 Dakle, u pitanju je jednostavan kod.
