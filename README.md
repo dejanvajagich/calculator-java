@@ -68,7 +68,7 @@ odgovara daljem ili finalnom konceptu i zamisli same aplikacije.
 
 calculator.java linija 15. linija koda <br>
 Konstruktor klase Operations je deklarisan privatnim, ali klasa nema nikakvih (privatnih) varijabli 
-koje bi mogle biti inicijalizirane putem konstruktora. Možda je ovo čak i nepotrebno ukoliko se
+koje bi mogle biti inicijalizovane putem konstruktora. Možda je ovo čak i nepotrebno ukoliko se
 sam kod ne bude dopunjavao u smeru toga da to onda ima mnogo više smisla.
 
 calculator.java linija 18. linija koda <br>
