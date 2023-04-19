@@ -1,9 +1,9 @@
 # LOC Lines of code
-LOC je 148.
-
-Start.java (19)
-Calculate.java (129)
-LICENSE (17 linija teksta koje nisu kod!)
+LOC je 148.<br>
+<br>
+Start.java (19) <br>
+Calculate.java (129) <br>
+LICENSE (17 linija teksta koje nisu kod!) <br>
 
 Ukupan broj linija za sva tri fajla je 235, 
 od čega je lines of code bez praznih linija
