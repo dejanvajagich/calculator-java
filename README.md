@@ -25,7 +25,11 @@ Generalno govoreći, klase bi mogle biti možda malo bolje dokumentovane,
 uz malo više Javadoc komentara koji bi bolje pojašnjavali funkcionalnost 
 metoda i parametre koji se koriste. To bi zasigurno pomoglo boljem razumevanju 
 samog koda za sve programere i članove tima koji rade na aplikaciji, ili prilikom 
-njenog unapređenja nakon nekog dužeg perioda. Takođe, preporučljivo bi bilo praktikovanje
+njenog unapređenja nakon nekog dužeg perioda. 
+
+<br>
+
+Takođe, preporučljivo bi bilo praktikovanje
 camelCase upotrebe, po Java konvenciji, u celokupnom kodu.
 
 start.java 6. linija koda <br>
