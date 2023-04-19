@@ -32,7 +32,7 @@ Varijabla Expression ima veliko početno slovo,
 što nije u skladu sa konvencijalnim nazivima varijabli u Javi. 
 Preporučljivo bi bilo promijeniti ime varijable na "expression"
 uključujući i na ostalim linijama koda na kojima se pojavljuje (13 i 15)
-ako to nije u suprotnosti sa nekim specifičnim uslovima i zahtevima.
+ako to nije u suprotnosti sa nekim specifičnim razlozima.
 
 start.java 12-13 linije koda <br>
 Mnogo bolje bi bilo da je new Scanner objekat 
