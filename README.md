@@ -67,7 +67,7 @@ bi mogli deklarisati kao lokalnu u metodi evaluateExpression() ako to više
 odgovara daljem ili finalnom konceptu i zamisli same aplikacije.
 
 calculator.java linija 15. linija koda <br>
-Konstruktor klase Operations je deklariran privatnim, ali klasa nema nikakvih (privatnih) varijabli 
+Konstruktor klase Operations je deklarisan privatnim, ali klasa nema nikakvih (privatnih) varijabli 
 koje bi mogle biti inicijalizirane putem konstruktora. Možda je ovo čak i nepotrebno ukoliko se
 sam kod ne bude dopunjavao u smeru toga da to onda ima mnogo više smisla.
 
