@@ -18,7 +18,7 @@ Ciklomatska složenost za
 metode evaluateExpression i Calculate
 je niskorizična, 
 <br> dok je kognitivna, kao i
-uvek, tek nešto malko složenija od ciklomatske. 
+uvek, nešto malo kompleksnija od ciklomatske. 
 
 # Statička analiza koda
 Generalno govoreći, klase bi mogle biti možda malo bolje dokumentovane, 
