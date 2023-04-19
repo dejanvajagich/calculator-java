@@ -40,7 +40,7 @@ ako to nije u suprotnosti sa nekim specifičnim razlozima.
 start.java 12-13 linije koda <br>
 Mnogo bolje bi bilo da je new Scanner objekat 
 definisan izvan while petlje i samo upotrebljen u petlji.
-Nije potrebno stvarati novi objekt Scannera u svakoj iteraciji petlje, 
+Nije potrebno kreirati novi objekt Scannera u svakoj iteraciji petlje, 
 već samo jednom pri pokretanju programa i zatvoriti ga nakon korištenja,
 da ne bi bespotrebno samo opterećivali memoriju.
 
