@@ -42,7 +42,7 @@ već samo jednom pri pokretanju programa i zatvoriti ga nakon korištenja,
 da ne bi bespotrebno samo opterećivali memoriju.
 
 start.java 11-20 linije koda <br>
-Takođe, ovom bloku koda nedostaje obrada izuzetaka slučaju neuspeha skeniranja linije. 
+Takođe, ovom bloku koda nedostaje obrada izuzetaka u slučaju neuspeha skeniranja linije. 
 To može dovesti do nepredvidivog ponašanja programa i nepotrebnog prekida programa. 
 Preporučuje se dodavanje obrade izuzetaka, npr. pomoću try-catch bloka.
 Ovaj kod ne proverava unose korisnika, što može dovesti do neočekivanih rezultata. 
