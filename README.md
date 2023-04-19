@@ -16,7 +16,8 @@ zapis same licence). Tako, LOC iznosi 148.
 
 Ciklomatska složenost za
 metode evaluateExpression i Calculate
-je niskorizična, dok je kognitivna, kao i
+je niskorizična, 
+<br> dok je kognitivna, kao i
 uvek, tek nešto malko složenija od ciklomatske. 
 
 # Statička analiza koda
@@ -30,7 +31,7 @@ camelCase upotrebe, po Java konvenciji, u celokupnom kodu.
 start.java 6. linija koda <br>
 Varijabla Expression ima veliko početno slovo, 
 što nije u skladu sa konvencijalnim nazivima varijabli u Javi. 
-Preporučljivo bi bilo promijeniti ime varijable na "expression"
+Preporučljivo bi bilo promieniti ime varijable na "expression"
 uključujući i na ostalim linijama koda na kojima se pojavljuje (13 i 15)
 ako to nije u suprotnosti sa nekim specifičnim razlozima.
 
