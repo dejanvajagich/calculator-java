@@ -13,34 +13,35 @@ ne sadrži linije koda, već samo tekstualni
 zapis same licence). Tako, LOC iznosi 148.
 
 # Ciklomatska i kognitivna složenost
-metoda evaluateExpression i Calculate
 
 Ciklomatska složenost za
 metode evaluateExpression i Calculate
 je niskorizična, naravno kognitivna je 
-uvek malko složenija od ciklomatske. 
+uvek tek nešto malko složenija od ciklomatske. 
 
-# Analiza koda
+# Statička analiza koda
 Generalno govoreći, klase bi mogle biti možda malo bolje dokumentovane, 
 uz malo više Javadoc komentara koji bi bolje pojašnjavali funkcionalnost 
 metoda i parametre koji se koriste. To bi zasigurno pomoglo boljem razumevanju 
 samog koda za sve programere i članove tima koji rade na aplikaciji, ili prilikom 
-njenog unapređenja nakon nekog dužeg perioda.
+njenog unapređenja nakon nekog dužeg perioda. Takođe, preporučljivo bi bilo praktikovanje
+camelCase upotrebe, po Java konvenciji, u celokupnom kodu.
 
-start.java 6. linija koda
+start.java 6. linija koda <br>
 Varijabla Expression ima veliko početno slovo, 
 što nije u skladu sa konvencijalnim nazivima varijabli u Javi. 
 Preporučljivo bi bilo promijeniti ime varijable na "expression"
-uključujući i na ostalim linijama koda na kojima se pojavljuje 13 i 15.
+uključujući i na ostalim linijama koda na kojima se pojavljuje (13 i 15)
+ako to nije u suprotnosti sa nekim specifičnim uslovima i zahtevima.
 
-start.java 12-13 linije koda 
+start.java 12-13 linije koda <br>
 Mnogo bolje bi bilo da je new Scanner objekat 
 definisan izvan while petlje i samo upotrebljen u petlji.
 Nije potrebno stvarati novi objekt Scannera u svakoj iteraciji petlje, 
 već samo jednom pri pokretanju programa i zatvoriti ga nakon korištenja,
 da ne bi bespotrebno samo opterećivali memoriju.
 
-start.java 11-20 linije koda
+start.java 11-20 linije koda <br>
 Takođe, ovom bloku koda nedostaje obrada izuzetaka slučaju neuspeha skeniranja linije. 
 To može dovesti do nepredvidivog ponašanja programa i nepotrebnog prekida programa. 
 Preporučuje se dodavanje obrade izuzetaka, npr. pomoću try-catch bloka.
@@ -48,16 +49,16 @@ Ovaj kod ne proverava unose korisnika, što može dovesti do neočekivanih rezul
 Preporučuje se provera unosa korisnika, u slučaju unosa nepotebnih karaktera, 
 slova ili operatora, ao i deljivost unetih brojeva sa nulom, kako bi se izbegle greške.
 
-start.java 19. linija koda
+start.java 19. linija koda <br>
 Metoda Calculator.Run(Expression) se poziva unutar petlje, što može uzrokovati probleme 
 s performansama. Preporučljivo bi bilo izvući ovaj poziv metode iz petlje 
 i otpremiti rezultat u varijablu koja će se zatim  upotrebiti ili ispisati na konzoli.
 
-calculator.java linija 4. linija koda
-Klasa Calculator bi mogla biti bolje struktuisana tako da razdvoji logiku parsiranja izraza 
+calculator.java linija 4. linija koda <br>
+Klasa Calculator bi mogla biti bolje struktuisana, tako da razdvoji logiku parsiranja izraza 
 i izračunavanja rezultata u zasebne metode.
 
-calculator.java linija 6. linija koda
+calculator.java linija 6. linija koda <br>
 Varijabla finalResult je deklarisana kao static, 
 što znači da će zadržati svoju vrednost između poziva metoda. 
 Ovo bi moglo dovesti do neočekivanih rezultata ako bi se klasa Calculator 
@@ -65,15 +66,16 @@ koristila na više mesta u aplikaciji. Umesto toga, varijablu finalResult
 bi mogli deklarisati kao lokalnu u metodi evaluateExpression() ako to više
 odgovara daljem ili finalnom konceptu i zamisli same aplikacije.
 
-calculator.java linija 15. linija koda
-Konstruktor klase Operations je deklariran privatnim, ali klasa nema nikakvih privatnih varijabli 
+calculator.java linija 15. linija koda <br>
+Konstruktor klase Operations je deklariran privatnim, ali klasa nema nikakvih (privatnih) varijabli 
 koje bi mogle biti inicijalizirane putem konstruktora. Možda je ovo čak i nepotrebno ukoliko se
-sam kod ne bude dopunjavao u smeru toga da to ima mnogo više smisla.
+sam kod ne bude dopunjavao u smeru toga da to onda ima mnogo više smisla.
 
-calculator.java linija 18. linija koda
-Preporučuje se upotreba camelCase konvencije prilikom imenovanja kod metode ToString prema konvenciji Java koda.
+calculator.java linija 18. linija koda <br>
+Preporučuje se upotreba camelCase konvencije prilikom imenovanja metode ToString prema konvenciji Java koda,
+osim ukoliko to nije u suprotnosti sa nekim specifičnim razlogom.
 
-calculator.java linija 28. linija koda
+calculator.java linija 28. linija koda <br>
 Metoda evaluateExpression() ima prilično dugačku i složenu logiku koja bi se mogla pojednostaviti 
 razdvajanjem parsiranja izraza u zasebne metode.
 Takođe, u slučaju greške, metoda evaluateExpression() vraća "ERROR" u tekstualnom formatu, 
@@ -81,6 +83,6 @@ Takođe, u slučaju greške, metoda evaluateExpression() vraća "ERROR" u tekstu
 To bi se moglo rešiti upotrebom izuzetaka ili upotrebom neke druge podrobnije oznake za opis vrste greške
 koja je izbila.
 
-calculator.java linija 69. linija koda
+calculator.java linija 69. linija koda <br>
 Metoda Calculate() takođe ima složenu logiku koja bi se mogla pojednostaviti, 
-recimo korištenjem for petlje umesto niza if izjava.
+recimo korištenjem for petlje umesto niza if izjava, ukoliko zamisao projekta to dozovljava.
