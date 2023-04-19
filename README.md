@@ -16,8 +16,8 @@ zapis same licence). Tako, LOC iznosi 148.
 
 Ciklomatska složenost za
 metode evaluateExpression i Calculate
-je niskorizična, naravno kognitivna je 
-uvek tek nešto malko složenija od ciklomatske. 
+je niskorizična, dok je kognitivna, kao i
+uvek, tek nešto malko složenija od ciklomatske. 
 
 # Statička analiza koda
 Generalno govoreći, klase bi mogle biti možda malo bolje dokumentovane, 
