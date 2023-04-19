@@ -47,7 +47,7 @@ To može dovesti do nepredvidivog ponašanja programa i nepotrebnog prekida prog
 Preporučuje se dodavanje obrade izuzetaka, npr. pomoću try-catch bloka.
 Ovaj kod ne proverava unose korisnika, što može dovesti do neočekivanih rezultata. 
 Preporučuje se provera unosa korisnika, u slučaju unosa nepotebnih karaktera, 
-slova ili operatora, ao i deljivost unetih brojeva sa nulom, kako bi se izbegle greške.
+slova ili operatora, kao i deljivost unetih brojeva sa nulom, kako bi se izbegle greške.
 
 start.java 19. linija koda <br>
 Metoda Calculator.Run(Expression) se poziva unutar petlje, što može uzrokovati probleme 
