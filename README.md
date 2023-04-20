@@ -45,12 +45,12 @@ već samo jednom pri pokretanju programa i zatvoriti ga nakon korištenja,
 da ne bi bespotrebno samo opterećivali memoriju.
 
 start.java 11-20 linije koda <br>
-Takođe, ovom bloku koda nedostaje obrada izuzetaka u slučaju eventualnih grešaka prilikom unosa. 
-To može dovesti do nepredvidivog ponašanja programa i nepotrebnog prekida programa. 
-Preporučuje se dodavanje obrade izuzetaka, npr. pomoću try-catch bloka.
-Ovaj kod ne proverava unose korisnika, što može dovesti do neočekivanih rezultata. 
-Preporučuje se provera unosa korisnika, u slučaju unosa nepotebnih karaktera, 
-slova ili operatora, kao i deljivost unetih brojeva sa nulom, kako bi se izbegle greške.
+Takođe, ovom bloku koda nedostaje obrada izuzetaka u slučaju eventualnih grešaka prilikom unosa.
+Ovaj kod ne proverava unose korisnika, što može dovesti do nepredvidivog ponašanja, 
+neočeivanih rezultata i nepotrebnog prekida programa. Preporučuje se dodavanje obrade izuzetaka, 
+npr. pomoću try-catch bloka i provera unetih podataka od strane korisnika,
+u slučaju unosa nepotebnih karaktera, slova ili operatora, kao i deljivost unetih brojeva sa nulom, 
+kako bi se izbegle greške.
 
 start.java 19. linija koda <br>
 Metoda Calculator.Run(Expression) se poziva unutar petlje, što može uzrokovati probleme 
