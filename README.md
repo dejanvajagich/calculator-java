@@ -72,7 +72,7 @@ odgovara daljem ili finalnom konceptu i zamisli same aplikacije.
 calculator.java linija 15. linija koda <br>
 Konstruktor klase Operations je deklarisan privatnim, ali klasa nema nikakvih (privatnih) varijabli 
 koje bi mogle biti inicijalizovane putem konstruktora. Možda je ovo čak i nepotrebno ukoliko se
-sam kod ne bude dopunjavao u nekom pravcu u kom to ima više smisla.
+sam kod ne bude razvijao i dopunjavao u nekom pravcu u kom to ima više smisla.
 
 calculator.java linija 18. linija koda <br>
 Preporučuje se upotreba camelCase konvencije prilikom imenovanja metode ToString prema konvenciji Java koda,
