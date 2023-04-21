@@ -86,6 +86,6 @@ Takođe, u slučaju greške, metoda evaluateExpression() vraća "ERROR" u tekstu
 To bi se moglo rešiti upotrebom izuzetaka ili upotrebom neke druge podrobnije oznake za opis vrste greške
 koja je izbila.
 
-calculator.java linija 69. linija koda <br>
+calculator.java linija 76. linija koda <br>
 Metoda Calculate() takođe ima složenu logiku koja bi se mogla pojednostaviti, 
 recimo korištenjem for petlje umesto niza if izjava, ukoliko zamisao projekta to dozovljava.
