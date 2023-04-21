@@ -78,7 +78,7 @@ calculator.java linija 18. linija koda <br>
 Preporučuje se upotreba camelCase konvencije prilikom imenovanja metode ToString prema konvenciji Java koda,
 osim ukoliko to nije u suprotnosti sa nekim specifičnim razlogom.
 
-calculator.java linija 28. linija koda <br>
+calculator.java linija 64. linija koda <br>
 Metoda evaluateExpression() ima prilično dugačku i složenu logiku koja bi se mogla pojednostaviti 
 razdvajanjem parsiranja izraza u zasebne metode.
 Takođe, u slučaju greške, metoda evaluateExpression() vraća "ERROR" u tekstualnom formatu, 
