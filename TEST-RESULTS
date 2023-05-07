@@ -156,4 +156,4 @@ Test Result: "PASS"
 
 
 Što se tiče unit white box testiranja metode Calculate, ona se podudara sa već nabrojanim black box sistemskim testovima i daje iste matematičke rezultate
-(da ne ponavljam isto) mimo onih propusta koji se dešavaju u drugim metodama poput evaluateExpression ii Run.
+(da ne ponavljam isto) mimo onih propusta koji se dešavaju u drugim metodama poput evaluateExpression i Run.
