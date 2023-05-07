@@ -157,10 +157,4 @@ Actual Output: "14.0"
 Test Result: "PASS"
 
 Što se tiče unit white box testiranja metode Calculate ona se podudara sa već nabrojanim black box sistemskim testovima,
-(da ne ponavljam) osim u slučaju one greške sa prekidom programa prilikom ne unošenja ničega i pritiska na ENTER taster . 
-
-
-Jedinno ta greška prilikom neunošenja ničega "" i samo pritiska na Enter taster, program ne bi smeo
-da se prekine, što on čini, izbacujući grešku String index out of range: 0. Dok u unit white box testiranju Calculate metode
-bi ova greška prošla test, dakle bila bi očekivana, jer i nismo uneli ništa, to bi bila razlika. Ipak mogli bi to rešiti
-obuhvatanjem takve situacije izuzetkom da se ona ne bi dešavala.
+(da ne ponavljam).
