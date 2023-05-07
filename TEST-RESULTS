@@ -24,7 +24,7 @@ Test Result: "FAIL"
 
 
 
-Test Case: Ako unesemo razmak " "
+Test Case: Ako unesemo samo razmak " "
 Input: " "
 Expected Output: "ERROR"
 Actual Output: "ERROR"
