@@ -1,0 +1,166 @@
+Test Case: Operacije sa zagradama
+Input: "2*(6-2)"
+Expected Output: "8.0"
+Actual Output: "ERROR"
+Test Result: "FAIL"
+
+Test Case: Operacije sa dva negativna broja
+Input: "-4/-2"
+Expected Output: "2.0"
+Actual Output: "ERROR"
+Test Result: "FAIL"
+
+Test Case: Označavanje decimala sa tackom
+Input: ".5+.5"
+Expected Output: "1.0"
+Actual Output: "1.0"
+Test Result: "PASS"
+
+Test Case: Ako ne unesemo ništa " " i pritisnemo Enter
+Input: ""
+Expected Output: "NE bi trebalo da se rad programa prekine!"
+Actual Output: "Prekid i gašenje programa! ERROR: String index out of range: 0"
+Test Result: "FAIL"
+
+Test Case: Ako unesemo razmak " "
+Input: " "
+Expected Output: "ERROR"
+Actual Output: "ERROR"
+Test Result: "FAIL"
+
+
+
+Test Case: Operacije sa razmakom
+Input: "1 + 2"
+Expected Output: "3.0"
+Actual Output: "3.0"
+Test Result: "PASS"
+
+Test Case: Deljenje sa 0
+Input: "5/0"
+Expected Output: "Inffinity"
+Actual Output: "Inffinity"
+Test Result: "PASS"
+
+Test Case: Složena operacija
+Input: "2+3*4-6/2"
+Expected Output: "11.0"
+Actual Output: "11.0"
+Test Result: "PASS"
+
+Test Case: Operacije sa negativnim brojevima
+Input: "-5-2"
+Expected Output: "-7.0"
+Actual Output: "-7.0"
+Test Result: "PASS"
+
+Test Case: Prosta operacija sabiranja dva broja
+Input: "5+2"
+Expected Output: "7.0"
+Actual Output: "7.0"
+Test Result: "PASS"
+
+Test Case: Složena operacije
+Input: "5+2-1*1/2"
+Expected Output: "6.5"
+Actual Output: "6.5"
+Test Result: "PASS"
+
+Test Case: Prosta operacija sabiranja dva broja
+Input: "5+2"
+Expected Output: "7.0"
+Actual Output: "7.0"
+Test Result: "PASS"
+
+Test Case: Operacije sa decimalnim brojevima
+Input: "2.33+3.5*4.10-6.20/2.25"
+Expected Output: "13.924445"
+Actual Output: "13.924445"
+Test Result: "PASS"
+
+Test Case: Operacije sa velikim brojjevima
+Input: "1000000000+2000000000"
+Expected Output: "3.0E9"
+Actual Output: "3.0E9"
+Test Result: "PASS"
+
+Test Case: Deljenje sa 1
+Input: "1/2"
+Expected Output: "0.5"
+Actual Output: "0.5"
+Test Result: "PASS"
+
+Test Case: Deljenje 1
+Input: "1/1"
+Expected Output: "1.0"
+Actual Output: "1.0"
+Test Result: "PASS"
+
+Test Case: Deljenje 0 sa 0
+Input: "0/0"
+Expected Output: "NaN"
+Actual Output: "NaN"
+Test Result: "PASS"
+
+Test Case: Unos drugih operativnih karaktera
+Input: "7>7+1"
+Expected Output: "ERROR"
+Actual Output: "ERROR"
+Test Result: "PASS"
+
+Test Case: Operacija sa E ekstremno velikim brojevima
+Input: "1.5e10*1.5e10"
+Expected Output: "2.2500001E20"
+Actual Output: "2.2500001E20"
+Test Result: "PASS"
+
+Test Case: Unos slova i drugih karaktera
+Input: "Ahdjj"
+Expected Output: "ERROR"
+Actual Output: "ERROR"
+Test Result: "PASS"
+
+Test Case: Unos komande za izlaz
+Input: "exit"
+Expected Output: "prekid programa"
+Actual Output: "prekid programa"
+Test Result: "PASS"
+
+Test Case: Unos komande za izlaz velikim slovima
+Input: "EXIT"
+Expected Output: "ERROR"
+Actual Output: "ERROR"
+Test Result: "PASS"
+
+Test Case: Unos samo jednog broja
+Input: "7"
+Expected Output: "7.0"
+Actual Output: "7.0"
+Test Result: "PASS"
+
+Test Case: Prosta operacija oduzimanja dva broja
+Input: "5-2"
+Expected Output: "3.0"
+Actual Output: "3.0"
+Test Result: "PASS"
+
+Test Case: Prosta operacija deljenja dva broja
+Input: "10/2"
+Expected Output: "5.0"
+Actual Output: "5.0"
+Test Result: "PASS"
+
+Test Case: Prosta operacija množenja dva broja
+Input: "7*2"
+Expected Output: "14.0"
+Actual Output: "14.0"
+Test Result: "PASS"
+
+Što se tiče unit white box testiranja metode Calculate ona se podudara sa već nabrojanim black box sistemskim testovima,
+(da ne ponavljam) osim u slučaju one greške sa prekidom programa prilikom ne unošenja ničega i pritiska na ENTER taster . 
+
+
+Jedinno ta greška prilikom neunošenja ničega "" i samo pritiska na Enter taster, program ne bi smeo
+da se prekine, što on čini, izbacujući grešku String index out of range: 0. Dok u unit white box testiranju Calculate metode
+bi ova greška prošla test, dakle bila bi očekivana, jer i nismo uneli ništa, to bi bila razlika. Ipak mogli bi to rešiti
+obuhvatanjem takve situacije izuzetkom da se ona ne bi dešavala.
