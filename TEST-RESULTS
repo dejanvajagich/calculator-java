@@ -19,7 +19,7 @@ Test Result: "PASS"
 Test Case: Ako ne unesemo ništa " " i pritisnemo Enter
 Input: ""
 Expected Output: "NE bi trebalo da se rad programa prekine!"
-Actual Output: "Prekid i gašenje programa! ERROR: String index out of range: 0"
+Actual Output: "Prekid i gašenje programa! ERROR: String index out of range: 0 u metodama Run i evaluateExpression"
 Test Result: "FAIL"
 
 Test Case: Ako unesemo razmak " "
@@ -157,4 +157,4 @@ Actual Output: "14.0"
 Test Result: "PASS"
 
 Što se tiče unit white box testiranja metode Calculate ona se podudara sa već nabrojanim black box sistemskim testovima i daje iste matematičke rezultate
-(da ne ponavljam isto).
+(da ne ponavljam isto) mimo onih propusta koje se dešavaju u drugim metodama evaluateExpression i Run.
