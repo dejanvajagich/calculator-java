@@ -156,5 +156,5 @@ Expected Output: "14.0"
 Actual Output: "14.0"
 Test Result: "PASS"
 
-Što se tiče unit white box testiranja metode Calculate ona se podudara sa već nabrojanim black box sistemskim testovima,
-(da ne ponavljam).
+Što se tiče unit white box testiranja metode Calculate ona se podudara sa već nabrojanim black box sistemskim testovima
+(da ne ponavljam isto).
