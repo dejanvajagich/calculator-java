@@ -66,12 +66,6 @@ Expected Output: "6.5"
 Actual Output: "6.5"
 Test Result: "PASS"
 
-Test Case: Prosta operacija sabiranja dva broja
-Input: "5+2"
-Expected Output: "7.0"
-Actual Output: "7.0"
-Test Result: "PASS"
-
 Test Case: Operacije sa decimalnim brojevima
 Input: "2.33+3.5*4.10-6.20/2.25"
 Expected Output: "13.924445"
