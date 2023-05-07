@@ -72,7 +72,7 @@ Expected Output: "13.924445"
 Actual Output: "13.924445"
 Test Result: "PASS"
 
-Test Case: Operacije sa velikim brojjevima
+Test Case: Operacije sa velikim brojevima
 Input: "1000000000+2000000000"
 Expected Output: "3.0E9"
 Actual Output: "3.0E9"
@@ -96,7 +96,7 @@ Expected Output: "NaN"
 Actual Output: "NaN"
 Test Result: "PASS"
 
-Test Case: Unos drugih operativnih karaktera
+Test Case: Unos drugih matematičkih karaktera
 Input: "7>7+1"
 Expected Output: "ERROR"
 Actual Output: "ERROR"
